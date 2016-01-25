@@ -7,10 +7,10 @@ var Letter = function(let){
 	this.appear = false,
 	this.letterRender = function(){
 		if(this.appear === false){
-			console.log("_");
+			return "_";
 		}
 		else {
-			console.log(charac);
+			return charac;
 		}
 	}
 }
