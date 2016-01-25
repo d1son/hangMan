@@ -38,3 +38,4 @@ var Word = function(wrd){
 		}
 	}
 }
+module.exports = Word;
