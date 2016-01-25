@@ -34,7 +34,7 @@ var Word = function(wrd){
 		var str = "";
 		for(i = 0, i < lets.length; i++){
 			// everytime the loop iterates, calling the letterRender on that object and then string concatenate that to the varaible str, not sure how to start this.
-
+		return str;
 		}
 	}
 }
