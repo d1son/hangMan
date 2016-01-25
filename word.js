@@ -21,4 +21,20 @@ var Word = function(wrd){
 		}
 		return whatToReturn;
 	}
+	this.didWeFindTheWord = function(){
+		// used MND definition of .every()
+		if (this.lets.every(function(curLet, index, array){
+			return curLet.appear === true;
+		})){
+			this.found === true;
+		}
+		return this.found;
+	}
+	this.wordRender = function(){
+		var str = "";
+		for(i = 0, i < lets.length; i++){
+			// everytime the loop iterates, calling the letterRender on that object and then string concatenate that to the varaible str, not sure how to start this.
+
+		}
+	}
 }
